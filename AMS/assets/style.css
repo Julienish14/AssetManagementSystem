@@ -1,0 +1,194 @@
+body{padding:0px;margin: 0px;}
+/*-----Index CSS---*/
+.index-head{background:#043258;height: 90px;text-align: center;font-weight: 500;color: #ffff}
+.index-head #R{font-size: 2.3em;margin-top: -10px}
+.index-head #Rw{font-size: 0.7em;margin-top: -20px}
+.index-head #A{font-size: 1.4em;margin-top: -20px}
+
+.index-body{height: 490px;background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(pic2.jpg);} 
+.index-body .c{padding: 30px}
+.index-body .c form{padding: 0px 30px 20px 30px;}
+.login-box{color: white}
+.login-box .textbox{width: 100%;overflow: hidden;font-size: 20px;border-bottom: 2px solid #0c2035;
+	padding: 8px 0px;margin: 8px 0px;}
+.login-box h1{float: left;font-size: 25px;border-bottom: 6px solid #0c2035;margin-bottom: 30px;
+	padding: 10px 0;}	
+.login-box .icon{width: 26px;float: left;text-align: center;}
+.login-box .textbox #eye{}
+.login-box .textbox #eye:hover{opacity: 0.2}
+.login-box .textbox input{border:none;outline: none;background: none; color: white; font-size: 18px; 
+	width: 220px;float: left;margin:0 10px;}		
+.login-box .btn-block{margin-top: 30px;background: none;border:2px solid #0c2035;color: white}
+.login-box .btn-block:hover{color:#043258;}
+.links .reg{}
+.links{margin-top: 30px;}
+.links a:{color: white;text-decoration: none;} 
+.index-body .links a:hover{color: #173044;text-decoration: none;}
+.index-body .alert-danger{display: none;}
+
+
+
+/*-------Index css End-----*/
+/*-------Register css------*/
+.reg-head{}
+.reg-body{background: #3f4467;height: 480px}
+.reg-body .b{border: 1px solid #ffff;margin-top: 70px;} .reg-body label{color: white}
+.reg-body form{padding: 10px 20px} .reg-body h3{text-align: center;}
+.reg-body .btn-primary{width: 100%}
+.reg-body .alert-danger{display: none;text-align: center;}
+.reg-body a{text-decoration: none}
+/*-------Profile css-------*/
+.main-profi{height: 530px;}
+.main-profi .a{border:1px solid #ffff;height: auto;margin-top: 20px;padding: 20px;background: #0e0e0e} form label{color: #ffff}
+.main-profi form input{background: transparent;border-top:none;border-right: none;border-left: none;}
+.main-profi form button{width: 100%}
+
+
+/*========DASHBOARD css=======*/
+.dash-head{background:#05192f;height: 60px;width: 100%;}
+
+.btn-menu{font-size:3em;margin-left: 15px;margin-top: -10px;color: whitesmoke;transition:left 0.4s ease;} 
+.btn-menu span:hover{color: black}
+
+
+
+
+/*---Show user Profile---  */
+.dash-head a{color: whitesmoke;text-decoration: none;} 
+.dash-head .admin-btn:hover{color:#6fa4d8}
+.dash-head .admin-show a:hover{color:#52e0f7}
+.dash-head ul{position: absolute;top: 35px;right: 50px;list-style: none;} 
+.dash-head ul ul{position: static;display:none;}
+.dash-head ul .admin-show.show{display: block;}
+.dash-head ul ul li{line-height: 22px;margin-right: -50px;}
+.dash-head ul ul li a{font-size: 16px;color: #e6e6e6;} 
+.dash-head ul li a{position: relative;}
+.dash-head ul li a i{
+  position: absolute;top: 50%;right: -30px;transform: translateY(-50%);font-size: 22px;transition: transform 0.4s;}
+.dash-head ul li a i.rotate{transform: translateY(-50%) rotate(-180deg);}
+/*----End of show Admin info code---*/
+
+.im{border-radius: 100%;margin-bottom: 10px}
+.sidebar.show{left: 0px}
+.sidebar {position: absolute;
+  font-family: Roboto;color: white;background: #101523;padding-top: 30px;left: -250px;transition: 0.5s;
+  transition-property: left;width: 250px;margin-top: 0px}
+.sidebar #R{font-size: 2.4em;margin-top: 0px} .sidebar #Rw{font-size: 0.8em;margin-top: -20px} 
+.sidebar #A{font-size: 0.9em; font-weight: 1000;text-transform: uppercase;margin-top: -15px}
+.sidebar h4{color: #ccc;margin-top: 0;margin-bottom: 20px;}
+.sidebar a{color: #fff;display: block;width:100%;line-height: 50px;text-decoration: none;box-sizing: border-box;
+	transition: 0.5s;transition-property: background;padding-left: 80px;margin-left: 0px}
+.sidebar a:hover{background: black;}
+.sidebar i{padding-right: 10px;} 
+.sidebar .side{margin-top: 10px;}
+.sidebar .side .last{margin-bottom: 7px}
+.main{background-color: #0c233a;width: 100%;} 
+.dash h4{position: absolute;color: #ffff;top: 36%;left: 23.6%;text-decoration: none;} .dash h4:hover{color: #043258}
+.dash{margin-top: 12.5%;margin-bottom:4.5%;margin-left:15%;text-align:center;width:80%;padding-top: 20px;} 
+.dash p{position: absolute;margin-top: 80px;margin-left:40px ; font-size: 1.2em;color:#708c94;font-weight:500;
+text-transform: capitalize;font-style: italic;} 
+.dash i{position: absolute;font-size: 4em;margin-left: -90px;margin-top: 15px;color: darkgray}
+.dash b{margin-left:40px ;margin-top: 85px; color: white;position: absolute;}
+.dash a{width: 270px;height: 120px;border: 1px solid white;border-radius: 5px; display: inline-block;margin-top: 10px;margin-left: 10px}
+.dash a:hover{opacity: 0.6;}
+#assets{background-color: #324b61} .employee{background-color: #133756 } .assigned{background-color: #1b3244} 
+.unassigned{background-color: #184975} .trashed{background-color: #082640 } .depart{background-color: #172835;}
+.fl{color: white}
+.footer{background: #091521;height: 44px;text-align: center;} .footer p{padding-top: 5px;color: #ffff;}
+/*--------END dashboaed css--------*/
+
+/*----Start of other pages code-------*/ 
+.head{background: #021933;height: 80px;} 
+.head h3{color: #fff;font-weight: 500;text-transform: uppercase;margin-top: 40px;text-decoration: none;position: absolute;}
+.head a{text-decoration: none;} .head h3:hover{color: #f1f11d} 
+.head span{color: blck} .head span:hover{color: #fff;} 
+
+.head ul li a{color: white;text-decoration: none;} .head ul li a:hover{color: #6fa4d8;}
+.head ul{position: absolute;top: 10px;right: 50px;list-style: none;}
+.head ul ul{position: static;display:none;} 
+.head ul .admin-show.show{display: block;}
+.head ul ul li{line-height: 20px;margin-right: -50px}
+.head ul ul li a{font-size: 17px;color: #e6e6e6;} /*.head ul ul li a:hover{color: orange} */
+.head ul li a{position: relative;}
+.head ul li a i{
+  position: absolute;top: 50%;right: -30px;transform: translateY(-50%);font-size: 22px;transition: transform 0.4s;}
+.head ul li a i.rotate{transform: translateY(-50%) rotate(-180deg);}
+
+
+.sidebar_asset{background: #101523;color: #fff;padding-top: 30px;} 
+.sidebar_asset a{color: #fff;display: block;margin-bottom: 40px;text-decoration: none;box-sizing:border-box;
+	transition: 0.5s;transition-property:background;margin-left: 100px;}
+.sidebar_asset a:hover{opacity: 0.7;color: cyan;}
+.sidebar_asset span:after{}
+.sidebar_asset i{padding-right: 10px;} 
+.sidebar_asset #R{font-size: 2em;margin-top: 0px} .sidebar_asset #Rw{font-size: 0.7em;margin-top: -20px;} 
+.sidebar_asset #A{font-size: 0.7em; font-weight: 1000;text-transform: uppercase;margin-top: -15px}
+.sidebar_asset .im{margin-bottom: 30px}
+.main_asset{background:black;}
+
+.content{}
+
+/*----- Start middle navbar----*/
+nav ul li{list-style: none;text-decoration: none;display: inline-block;}
+nav{float: right;margin-top: 100px;margin-right: 10px;} 
+.mid nav a{opacity: 0.5;margin-left: 20px;color: #ffff;}
+.mid nav a:hover{color:#668cb3;border-bottom: 4px solid #668cb3;padding-bottom: 5px;text-decoration: none;} 
+.mid nav ul li.active a{opacity: 1;padding-bottom: 5px;border-bottom: 4px solid #fff} 
+.mid nav ul li.active a:hover{color:#668cb3;border-bottom: 4px solid #668cb3;opacity: 0.5}
+.mid nav a span{margin-left: 3px} 
+/*------ End -------*/
+
+
+/*----- Start Add Emp,Item&Depar ----*/
+.add{display:none;width: 100%;padding: 30px;border:1px solid yellow;margin-left: 0px}
+.addk{display:none;width: 100%;padding: 30px;border:1px solid darkred;margin-left: 0px} 
+.add_item{margin-top: 5px;margin-left: px;}
+.add_emp{margin-top: 5px;margin-left: px} 
+.add .new{padding:5px 59px 5px 59px;margin-top: 10px;}
+.add .newa{padding:5px 56px 5px 56px;margin-top: 10px;}
+.add .save-new{padding: 0px 20px 0px 20px;margin-top: 5px }
+
+/*-----department----*/
+.add-dep button{width: 100%;margin-top: 10px;}
+/*-----End-----*/
+
+/*----TABLES css    ------   */ 
+.cont table{background-color:red;}
+.content table{margin-top: 10px;color: #ffff;border: 1px solid;width: 100%} 
+.content table tr th{background:#292727;}
+.content table tr:nth-child(even){background-color: #18181d;}
+.content table .emp{width: 20px} 
+
+.cont table{margin-top: 10px;color: #ffff;border: 1px solid;width: 100%} 
+.cont table tr th{background:#292727;}
+.cont table tr:nth-child(even){background-color: #18181d;}
+
+
+/*----assign assets-----*/
+.assign{background:#060619;padding-top: 20px} 
+.assign button{margin-top: 10px;margin-bottom: 15px;width: 100%;background: #02020c;color: #b52424}
+.assign button:hover{background:#111117;} 
+
+/*Models*/
+.foform label{color: black}
+
+
+/*@media all and (max-width: 1000px){}*/
+@media (max-width: 1000px) {
+	.sidebar.show{left: }	
+	.sidebar{width: 80px;padding-bottom: 320px} .sidebar a span{display: none} 
+	.sidebar a{font-size: 20px;margin-left: -30px;padding-right: 50px}
+	.sidebar #R{margin-left: 10px;margin-top: 50px;font-size: 1.7em} .sidebar #A{display: none;} .sidebar #Rw{display: none;}
+	.sidebar .im{margin-left: 10px;margin-top: 50px} .me span{display: }
+	.dash{margin-left: 10%}
+
+	.main h4 a{position: absolute;color: #ffff;top: 20%;left: 110px}
+
+	.index-body .fom{}
+
+	.sidebar_asset a{margin-left: 50px;padding-right: 0px}
+}
+@media (max-width: 500px) {
+	.sidebar_asset a{}
+	.sidebar_asset a span{display: none}	
+}
